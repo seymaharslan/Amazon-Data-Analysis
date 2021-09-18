@@ -16,14 +16,14 @@ Main goal of the ecommerce team is to derive sales and keep the online marketpla
 ## A Glance to the Dataset:
 
 __a)__ First part of the project is about inventory performance of Amazon fulfilled products. 
-Amazon itself measures seller accounts inventory performance with a metric called IPI (Inventory Performance Index), it is a score out of 1000 and if the seller’s score falls below 500 their account is blocked from sending inventory to Amazon’s warehouse. There are 4 indicators that shape IPI score and there is no explained weighted scale of indicators and their impacts on the score. Which is the goal of this analysis, to figure what metric we should go after as a marketing team. Those indicators are:
+Amazon itself measures every seller account's inventory performance with a metric called IPI (Inventory Performance Index), it is a score out of 1000 and if the seller’s score falls below 500, their account is blocked from sending inventory to Amazon’s warehouse. There are 4 indicators that shape IPI score and there is no explained weighted scale of indicators or their impacts on the score. Which is the goal of this analysis, to figure what metric we should go after as a marketing team. Those indicators are:
 
 * Excess inventory percentage: The percentage of your FBA units identified as excess.
 * FBA sell-through: Your FBA rolling 90-day sell-through rate is the number of your units sold and shipped over the past 90 days divided by the average number of units available at fulfillment centers during that time.
 * Stranded inventory percentage: The percentage of your FBA units currently stranded.
 * FBA in-stock rate: Percentage of time your replenishable FBA products have been in stock for the last 30 days, weighted by the number of units sold in the last 60 days.
  
-__b)__ Second part of the project aims to find out what are the significant parameters that affect the sales quantity/ sales volume for a product listing. There are basic requirements to upload a product on the Amazon website, but the key strategy is going beyond the standard application and adding improvements that make the listing stand out. When we apply improvements or experiment with AB testing, we want to know which approach works the best. This analysis is targeted to determine which one provides the higher sales. To achieve higher sales volume, these are the parameters we continuously work on: 
+__b)__ Second part of the project aims to find out what are the significant parameters that affect the sales quantity/ sales volume for a product listing. There are basic requirements to upload a product on the Amazon website, but the key strategy is going beyond the standard application and adding improvements that make the listing stand out. When we apply improvements or experiment with AB testing, we want to know which approach works the best. This analysis is targeting to determine which one provides the higher sales. To achieve higher sales volume these are the parameters we continuously work on: 
  
 * INV: Inventory level
 * Price: Item price
